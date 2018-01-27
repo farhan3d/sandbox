@@ -16,6 +16,7 @@ down_keyup = True
 
 def testfunc4( ):
     print( "test function for test_feature_3 branch" )
+    print( "second commit for test_feature_3 branch" )
 
 def testfunc3( ):
     print( "test function for test_feature_2 branch" )
