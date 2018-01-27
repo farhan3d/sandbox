@@ -14,28 +14,6 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
-# dummy comment for release_1.0
-# dummy comment for release_2.0
-
-def testfunc5( ):
-    print( "test function for the test_feature_4 branch" )
-
-def testfunc4( ):
-    print( "test function for test_feature_3 branch" )
-    print( "second commit for test_feature_3 branch" )
-
-def testfunc3( ):
-    print( "test function for test_feature_2 branch" )
-    print( "second commit for test_feature_2 branch" )
-
-def testfunc2( ):
-    print ( "dummy commit for develop" )
-
-def testfunc1( ):
-    print( "test function for test_feature_1 branch" )
-    print( "second commit for test_feature_1 branch" )
-    print( "third commit for test_feature_1 branch" )
-
 def draw_circle(canv):
     global circles_container, test_param1
     new_circle_class = CircleClass(canv, root)
