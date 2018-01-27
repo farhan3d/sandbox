@@ -15,6 +15,10 @@ up_keyup = True
 down_keyup = True
 
 # dummy comment for release_1.0
+# dummy comment for release_2.0
+
+def testfunc5( ):
+    print( "test function for the test_feature_4 branch" )
 
 def testfunc4( ):
     print( "test function for test_feature_3 branch" )
