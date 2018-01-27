@@ -14,6 +14,8 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
+# dummy comment for release_1.0
+
 def testfunc4( ):
     print( "test function for test_feature_3 branch" )
     print( "second commit for test_feature_3 branch" )
