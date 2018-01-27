@@ -1,4 +1,4 @@
-from tkinter import *
+from Tkinter import *
 import random
 import sys
 
@@ -14,10 +14,23 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
+# dummy comment for release_1.0
+
+def testfunc4( ):
+    print( "test function for test_feature_3 branch" )
+    print( "second commit for test_feature_3 branch" )
+
+def testfunc3( ):
+    print( "test function for test_feature_2 branch" )
+    print( "second commit for test_feature_2 branch" )
+
+def testfunc2( ):
+    print ( "dummy commit for develop" )
+
 def testfunc1( ):
-{
-    print ( "this is a test function" )
-}
+    print( "test function for test_feature_1 branch" )
+    print( "second commit for test_feature_1 branch" )
+    print( "third commit for test_feature_1 branch" )
 
 def draw_circle(canv):
     global circles_container, test_param1
