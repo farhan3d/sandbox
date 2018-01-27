@@ -17,6 +17,7 @@ down_keyup = True
 def testfunc1( ):
     print( "test function for test_feature_1 branch" )
     print( "second commit for test_feature_1 branch" )
+    print( "third commit for test_feature_1 branch" )
 
 def draw_circle(canv):
     global circles_container, test_param1
