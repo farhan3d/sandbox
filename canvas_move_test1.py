@@ -1,4 +1,4 @@
-from tkinter import *
+from Tkinter import *
 import random
 import sys
 
@@ -13,11 +13,6 @@ right_keyup = True
 left_keyup = True
 up_keyup = True
 down_keyup = True
-
-def testfunc1( ):
-{
-    print ( "this is a test function" )
-}
 
 def draw_circle(canv):
     global circles_container, test_param1
