@@ -16,7 +16,8 @@ down_keyup = True
 
 def testfunc10( ):
 {
-    print( "test function for develop")
+    print( "test function for develop" )
+    print( "second commit for develop" )
 }
 
 def draw_circle(canv):
