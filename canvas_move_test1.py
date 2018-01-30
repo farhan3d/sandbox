@@ -20,6 +20,7 @@ def testfunc10( ):
     print( "second commit for develop" )
     print( "third commit for develop" )
     print( "fourth commit for develop" )
+    print( "fifth commit for develop" )
 }
 
 def draw_circle(canv):
