@@ -15,6 +15,7 @@ up_keyup = True
 down_keyup = True
 
 # changes for feature/implement_awesomeness
+# more awesome changes
 
 def draw_circle(canv):
     global circles_container, test_param1
