@@ -14,12 +14,7 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
-# cleanup commit for develop
-# test change for test_feature_5
-# yet another test change for test_feature_5
-# and yet another one for test_feature_5
-
-# changes for release/1.2
+# changes for feature/implement_awesomeness
 
 def draw_circle(canv):
     global circles_container, test_param1
