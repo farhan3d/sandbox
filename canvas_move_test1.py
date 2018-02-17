@@ -14,15 +14,7 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
-def testfunc10( ):
-{
-    print( "test function for develop" )
-    print( "second commit for develop" )
-    print( "third commit for develop" )
-    print( "fourth commit for develop" )
-    print( "fifth commit for develop" )
-    print( "sixth commit for develop" )
-}
+# cleanup commit for develop
 
 def draw_circle(canv):
     global circles_container, test_param1
