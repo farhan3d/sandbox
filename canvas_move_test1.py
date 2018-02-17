@@ -19,6 +19,8 @@ down_keyup = True
 # yet another test change for test_feature_5
 # and yet another one for test_feature_5
 
+# changes for release/1.2
+
 def draw_circle(canv):
     global circles_container, test_param1
     new_circle_class = CircleClass(canv, root)
