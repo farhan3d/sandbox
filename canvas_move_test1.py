@@ -14,12 +14,6 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
-# changes for feature/implement_awesomeness
-# more awesome changes
-# a change for feature/test_feature_7
-# some more changes for feature/test_feature_7
-# the very last change for feature/test_feature_7
-
 def draw_circle(canv):
     global circles_container, test_param1
     new_circle_class = CircleClass(canv, root)
@@ -34,14 +28,6 @@ class CircleClass():
         self.increment = 0
         self.loop_count = 0
         draw_ball(self, canvas)
-        """ Apply gravity effects to the balls """
-        # while (self.position[1] + self.radius < canvas_height - 5):
-        #    self.gravity_effect(root, canvas, 0.00001)
-        # if (int(self.position[1]) + self.radius <
-        #    canvas_height) and (int(self.position[1] + self.radius > 
-        #    (canvas_height-5))):
-        #    while (self.position[1] + self.radius > 200):
-        #        self.gravity_effect(root, canvas, -0.00001)
         
     def update(self, canvas):
         pass
@@ -61,14 +47,6 @@ def draw_ball(ball, canvas):
                                     ball.position[1] + ball.radius, 
                                     width = 4, outline='white', 
                                     fill='black')
-    #root.after(1000, self.draw_ball(canvas))
-        
-#def move_ball(ball_to_move, canvas):
-#    dist = 0
-#    while (ball_to_move.position[0] < canvas_width):
-#        root.canvas.move(ball_to_move.oval1, dist, 0)
-#        dist += 0.000001
-#        root.update()
             
 def move_right_keyup(canvas):
     global right_keyup
