@@ -14,6 +14,10 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
+# release/1.1 note
+def test_func_1():
+    pass
+
 def draw_circle(canv):
     global circles_container, test_param1
     new_circle_class = CircleClass(canv, root)
