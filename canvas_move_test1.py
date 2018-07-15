@@ -14,6 +14,7 @@ left_keyup = True
 up_keyup = True
 down_keyup = True
 
+# release/1.1 note
 def test_func_1():
     pass
 
